@@ -38,6 +38,7 @@
     background-color: #16a085;
     color: white;
 }
+
 .book-now-btn{
     background-color: #16a085;
     color: #ffffff;
@@ -53,4 +54,41 @@
     color: #ff5722;
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(255, 87, 34, 0.1);
+}
+#carouselExampleDark{
+    max-width: 100%;
+    margin: 2rem auto;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.carousel-item{
+    height: 600px;
+    background-color: #000;
+}
+
+.carousel-item img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.85;
+}
+.carousel-caption{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    bottom: 3rem;
+}
+.carousel-caption h5{
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.carousel-caption p{
+    color: #f9f9f9;
+    font-size: 1.1rem;
+    line-height: 1.6;
 }
