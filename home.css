@@ -38,3 +38,19 @@
     background-color: #16a085;
     color: white;
 }
+.book-now-btn{
+    background-color: #16a085;
+    color: #ffffff;
+    padding: 8px 24px;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+.book-now-btn:hover{
+    background-color: #ffffff;
+    color: #ff5722;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 87, 34, 0.1);
+}
