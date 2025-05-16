@@ -47,18 +47,26 @@ background-color: white;
 .carousel-inner{
     width: 100%;
     height: 650px;
+    border-radius: 20px;
 }
 .sidebar{
     width: 60%;
     height: 400PX;
-    background-color: #93f88b;
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
+    
+    .cont{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
 }
 .sidebar h2{
     text-align: center;
-    font-family: "IBM Plex Mono", monospace;
+     font-family: "Rubik", sans-serif;
+     text-align: left;
+     text-transform: uppercase;
 }
 .sidebar h4{
     font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +76,6 @@ background-color: white;
 .form
 { width: 60%;
     height: 400PX;
-    background-color:  #93f88b;
     padding: 10px;
     border-radius: 10px;
     margin-right: 20px;
