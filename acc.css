@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 20px;
     .image-container {
+        padding-top: 5px;
         position: relative;
         width: 1400px;
         border: 2px, solid, black;
