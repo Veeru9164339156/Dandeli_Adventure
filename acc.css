@@ -322,6 +322,8 @@
         color: beige;
         height: 400px;
         width: 1600px;
+        height: 200px;
+        width: 100%;
         /* padding: 0%; */
         display: flex;
         justify-content: space-evenly;
@@ -336,10 +338,10 @@
         }
         .dahandeli {
             p {
-                width: 400px;
+                width: 100px;
                 text-transform: capitalize;
                 text-align: justify;
-                font-size: larger;
+                font-size: small;
             }
         }
         li {
@@ -353,7 +355,7 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            font-size: 20px;
+            font-size: 10px;
         }
         .packages {
             text-transform: capitalize;
