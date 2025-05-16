@@ -105,19 +105,39 @@
 
         .feature-list {
             columns: 2;
-            column-gap: 2rem;
-            max-width: 800px;
+            column-gap: 3rem;
+            max-width: 900px;
             margin: 0 auto;
+            list-style: none;
         }
 
         .feature-list li {
-            padding: 0.8rem;
+            padding: 1px;
             margin-bottom: 0.5rem;
             background: rgba(77, 195, 255, 0.1);
             border-radius: 8px;
             break-inside: avoid;
+            list-style: none;
+            text-decoration: none;
         }
 
+        .feature-list a {
+            display: block;
+            padding: 1.2rem;
+            background: white;
+            border-radius: 5px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .feature-list a:hover {
+            background: rgb(44, 227, 255);
+            color: white;
+            transform: translateY(-3px);
+        }
         .contact-section {
             background: var(--primary-color);
             color: white;
@@ -349,7 +369,7 @@
                     </div>
                 </div>
             </div>
-              <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <img src="images/2.jpg" class="card-img-top" alt="River View Resort">
                     <div class="card-body">
@@ -366,13 +386,13 @@
     <section class="section bg-light">
         <div class="cont">
             <h2>Included Activities</h2>
-            <ul class="feature-list list-unstyled">
-                <li>🏞 River Rafting & Kayaking</li>
-                <li>🌉 Jungle Trekking & Ziplining</li>
-                <li>🏊 Swimming Pool Access</li>
-                <li>🔥 Campfire with Live Music</li>
-                <li>🏹 Archery & Adventure Sports</li>
-                <li>🚣 Boating & Sightseeing Tours</li>
+            <ul class="feature-list">
+                <li><a href="activites.html" target="_blank">🏞 River Rafting & Kayaking</a></li>
+                <li><a href="activites.html" target="_blank">🌉 Jungle Trekking & Ziplining</a></li>
+                <li><a href="activites.html" target="_blank">🏊 Swimming Pool Access</a></li>
+                <li><a href="activites.html" target="_blank">🔥 Campfire with Live Music</a></li>
+                <li><a href="activites.html" target="_blank">🏹 Archery & Adventure Sports</a></li>
+                <li><a href="activites.html" target="_blank">🚣 Boating & Sightseeing Tours</a></li>
             </ul>
         </div>
     </section>
@@ -396,6 +416,7 @@
             </div>
         </div>
     </section>
+
 </body>
 
 </html>
