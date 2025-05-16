@@ -97,6 +97,13 @@ h1 {
   font-size: 1rem;
   color: #666;
   margin-bottom: 20px;
+  height:180px ;
+}
+.card-text1{
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  height: 280px;
 }
 
 
@@ -105,4 +112,5 @@ h1 {
 .card:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
