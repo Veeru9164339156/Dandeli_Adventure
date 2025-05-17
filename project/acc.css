@@ -4,6 +4,42 @@
     box-sizing: border-box;
 } */
 
+.container-fluid {
+    display: flex;
+    gap: 190px;
+    height: 100px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    .logo {
+        margin-left: 20px;
+        img {
+            width: 170px;
+        }
+    }
+    a {
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.book {
+    margin-right: 20px;
+    background-color: rgb(51, 150, 51);
+    padding: 5px;
+    border-radius: 10px;
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
 .web {
     display: flex;
     flex-direction: column;
@@ -17,7 +53,9 @@
     max-width: 1400px;
     margin: 0 auto;
     background-color: black;
-    background: url(https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694024.jpg?ga=GA1.1.1409295138.1747290520&semt=ais_hybrid&w=740) center/cover;
+    <<<<<<< HEAD background: url(https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694024.jpg?ga=GA1.1.1409295138.1747290520&semt=ais_hybrid&w=740) center/cover;
+    =======background: url(https://img.freepik.com/free-photo/luxurious-villa-with-modern-architectural-design_23-2151694024.jpg?ga=GA1.1.1409295138.1747290520&semt=ais_hybrid&w=740) no-repeat center / cover;
+    >>>>>>>f95d07b84ee5184aabec3dd04b88b510292d546a
 }
 
 .image-container img {
@@ -171,40 +209,4 @@ button {
     color: rgb(236, 17, 17);
     background: white;
     transform: translateY(-3px);
-}
-
-.container-fluid {
-    display: flex;
-    gap: 190px;
-    height: 100px;
-    position: fixed;
-    top: 0px;
-    background-color: white;
-    .logo {
-        margin-left: 20px;
-        img {
-            width: 170px;
-        }
-    }
-    a {
-        text-transform: capitalize;
-        font-size: 20px;
-        font-weight: bold;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-}
-
-.book {
-    margin-right: 20px;
-    background-color: rgb(51, 150, 51);
-    padding: 5px;
-    border-radius: 10px;
-    a {
-        color: white;
-        text-decoration: none;
-        padding: 8px;
-        font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-    }
 }
