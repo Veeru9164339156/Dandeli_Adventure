@@ -57,9 +57,20 @@ background-color: white;
     margin-left: 20px;
     
     .cont{
+<<<<<<< Updated upstream
         display: flex;
         flex-direction: row;
         gap: 10px;
+    }
+    .icon{
+=======
+>>>>>>> Stashed changes
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    i{
+        color:rgb(92, 241, 122);
     }
     .icon{
         display: flex;
