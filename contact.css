@@ -61,6 +61,14 @@ background-color: white;
         flex-direction: row;
         gap: 10px;
     }
+    .icon{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
+    i{
+        color:rgb(92, 241, 122);
+    }
 }
 .sidebar h2{
     text-align: center;
