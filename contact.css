@@ -6,7 +6,7 @@
 }
 .container-fluid{
 display: flex;
-gap: 135px;
+gap: 120px;
 height: 100px;
 position: sticky;
 top: 0px;
@@ -54,7 +54,7 @@ background-color: white;
     height: 400PX;
     padding: 10px;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 100px;
 
     .icon{
         display: flex;
