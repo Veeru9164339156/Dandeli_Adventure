@@ -55,10 +55,16 @@ background-color: white;
     padding: 10px;
     border-radius: 10px;
     margin-left: 20px;
+
+    .icon{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
     
     .cont{
         display: flex;
-        flex-direction: row;
+        flex-direction:column ;
         gap: 10px;
     }
 }
@@ -76,12 +82,10 @@ background-color: white;
 .form
 { width: 60%;
     height: 400PX;
-    padding: 10px;
-    border-radius: 10px;
+    display: block;
     margin-right: 20px;
-    text-align: center;
-    font-family: "IBM Plex Mono", monospace;
-
+    text-align: left;
+    font-family: "Rubik", sans-serif;
 }
     
 :root {
